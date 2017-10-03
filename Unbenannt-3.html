@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body>
+<script>
+var symbolComputer, symbolSpieler;
+var anzahlRunden=0;
+var gewinneComputer=0;
+var gewinneSpieler=0;
+var gewinneBedingung=0;
+
+  do{
+	  var ausgedachteZahl = Math.floor((Math.random() * 3) + 1);
+	  
+	  switch(ausgedachteZahl)
+	  {
+		  case 1: 
+			  symbolComputer="Schere";
+			  break;
+			  
+		case 2: 
+			  symbolComputer="Stein";
+			  break;
+			  
+		  case 3: 
+			  symbolComputer="Papier";
+			  break;
+		  
+	  	  }
+	  
+	  wahlSpiel=promt("Gib eine Zahl ein", "1 ist Schere", "2 ist Stein", "3 ist Papier");	
+	  
+	  switch(wahlSpieler)
+	  {
+		  case 1: 
+			  symbolSpieler="Schere";
+			  break;
+			  
+		case 2: 
+			  symbolSpieler="Stein";
+			  break;
+			  
+		  case 3: s
+			  symbolSpieler="Papier";
+			  break;
+		  
+	  	  }
+		  
+		  if(symbolComputer == symbolSpieler){alert("unentschieden");}
+		    
+      //das ist ein Test
+      //neuer TEst
+}while(gewinneSpieler<3&&gewinneComputer<3)
+ 
+</script>
+</body>
+</html>
